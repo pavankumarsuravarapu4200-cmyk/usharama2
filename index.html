@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UsharamaDmart</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077cc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: #0077cc;
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .category-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 200px;
+      transition: transform 0.2s;
+    }
+
+    .category-card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .category-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>UsharamaDmart</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="section" id="hero">
+    <h2>Welcome to UsharamaDmart</h2>
+    <p>Your local destination for groceries, household goods, and daily essentials.</p>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>UsharamaDmart is a community-focused retail store offering a wide range of quality products at affordable prices. From fresh produce to personal care items, we aim to make shopping easy and convenient for everyone.</p>
+  </section>
+
+  <section class="section" id="categories">
+    <h2>Product Categories</h2>
+    <div class="categories">
+      <div class="category-card">Fruits & Vegetables</div>
+      <div class="category-card">Dairy & Bakery</div>
+      <div class="category-card">Snacks & Beverages</div>
+      <div class="category-card">Cleaning Supplies</div>
+      <div class="category-card">Personal Care</div>
+      <div class="category-card">Stationery</div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Location: Usharama, Andhra Pradesh</p>
+    <p>📞 Phone: +91 98765 43210</p>
+    <p>📧 Email: contact@usharamadmart.in</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UsharamaDmart. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
